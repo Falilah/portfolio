@@ -1,0 +1,59 @@
+body {
+  position: grid;
+  place-content: center;
+  background: #011627;
+  color: #fdfffc;
+  height: 75vh;
+  font-size: 130%;
+}
+.jpeg_name {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jpg {
+  display: grid;
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  box-shadow: inset 10px 10px 15px black, inset 10px 10px 15px white;
+}
+
+.name {
+  width: 400px;
+  margin: 0px 45px;
+}
+.section {
+  display: grid;
+  justify-content: center;
+}
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #ede0d4;
+  font-size: 80%;
+  border: solid 0.1rem #2ec4b6;
+  background: #126782;
+}
+
+.funfact {
+  text-align: center;
+  color: #dad7cd;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  font-size: 100%;
+  font-weight: bold;
+  color: #2ec4b6;
+  opacity: 0.9;
+}
+
+@media only screen and (min-width: 1024px) {
+  .head {
+    display: flex;
+    float: left;
+    padding-top: 5%;
+  }
+}
